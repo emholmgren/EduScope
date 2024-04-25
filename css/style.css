@@ -1,0 +1,158 @@
+html {
+    overflow-y: scroll;
+    background-color: #555558
+}
+
+main {
+    min-height: 20px
+}
+
+body {
+    margin: 8px auto;
+    padding: 30px;
+    width: 1000px;
+    background-color: #646363;
+    border-radius: 25px
+}
+
+div {
+    width: 500px;
+    height: 200px;
+    margin: 10px;
+    border: 4px solid #050404;
+    padding: 20px
+}
+
+.somediv {
+    clear: left;
+    clear: right;
+    clear: both
+}
+
+.article-header {
+    clear: right
+}
+
+.me {
+    width: 150px;
+    margin: 1em;
+    float: left
+}
+
+.icon {
+    width: 150px;
+    margin: 1em;
+    float: inline-end
+}
+
+.icon2 {
+    width: 162px;
+    margin: 1em;
+    float: inline-start
+}
+
+.site-header {
+    background-color: #ffffff;
+    overflow: auto
+}
+
+.site-header img {
+    float: left
+}
+
+.site-title {
+    display: block;
+    padding-top: 1em;
+    padding-left: 50px;
+    font-size: 32px;
+    overflow: auto
+}
+
+.site-slogan {
+    display: block;
+    padding-left: 50px;
+    overflow: auto
+}
+
+.navbar {
+    padding: 1em;
+    background-color: #3a3d3d;
+    border-top: 1px solid #9c9
+}
+
+.navbar a {
+    display: inline-block;
+    padding: .5em 1em;
+    border: 1px solid #0a0a0a;
+    text-decoration: none
+}
+
+.navbar a:hover {
+    background-color: #eee;
+    text-decoration: underline
+}
+
+.byline {
+    background-color: #333;
+    display: block;
+    border: 3px solid #333;
+    margin-bottom: 3px;
+    padding: 1em;
+    overflow: auto;
+    clear: both;
+    outline: solid
+}
+
+.bylineimg {
+    float: left;
+    margin-right: .5em
+}
+
+.site-footer {
+    color: #fff;
+    background-color: #333;
+    overflow: auto
+}
+
+.site-footer a {
+    color: #fff
+}
+
+* {
+    box-sizing: border-box
+}
+
+.wrap-main {
+    background-color: #999993;
+    overflow: auto;
+    border: 1px solid gray;
+    width: 100%;
+    height: 1000px
+}
+
+pre {
+    white-space: pre-wrap
+}
+
+aside {
+    width: 30%;
+    float: left;
+    background-color: #b7e0fe;
+    border: 10px solid #84c9ff
+}
+
+pre {
+    white-space: pre-wrap
+}
+
+.whitetext {
+    color: white;
+}
+
+
+@media (max-width: 980px) {
+    body {
+        width:auto;
+        background-color: rgb(0, 89, 255)
+    }
+}
